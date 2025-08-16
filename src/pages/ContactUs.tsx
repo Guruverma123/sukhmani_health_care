@@ -12,7 +12,7 @@ const ContactUs = () => {
     {
       title: "Emergency Hotline",
       description: "24/7 emergency medical support",
-      info: "+91 98765 43210",
+      info: "+91 62844 09624",
       icon: Phone,
       action: "Call Now",
       urgent: true,
@@ -20,7 +20,7 @@ const ContactUs = () => {
     {
       title: "General Inquiries",
       description: "For appointments and general questions",
-      info: "+91 98765 43211",
+      info: "+91 62844 09624",
       icon: Phone,
       action: "Call",
       urgent: false,
@@ -28,7 +28,7 @@ const ContactUs = () => {
     {
       title: "WhatsApp Support",
       description: "Quick assistance via WhatsApp",
-      info: "+91 98765 43210",
+      info: "+91 62844 09624",
       icon: MessageCircle,
       action: "Message",
       urgent: false,
@@ -45,9 +45,9 @@ const ContactUs = () => {
 
   const officeLocations = [
     {
-      city: "Mumbai",
-      address: "123 Medical Center Lane, Bandra West, Mumbai - 400050",
-      phone: "+91 98765 43210",
+      city: "Jalandhar",
+      address: "Mannat Clinic, Basant Vihar Road, Near St. Soldier Nursing Institute, Khambra, Jalandhar  144026, Punjab, India",
+      phone: "+91 62844 09624",
       hours: "24/7 Emergency | Office: 9 AM - 6 PM",
     },
     {
