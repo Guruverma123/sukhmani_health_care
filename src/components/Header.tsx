@@ -28,30 +28,29 @@ const Header = () => {
                 <span className="text-primary-foreground font-bold text-xl">S</span>
               </div>
               <div className="flex flex-col leading-tight">
-                <span className="text-xl font-bold text-foreground">Sukhmani</span>
-                <span className="text-sm text-muted-foreground">Healthcare At Home</span>
+                <span className="flex justify-center text-xl font-bold text-foreground">Sukhmani</span>
+                <span className="flex justify-center text-sm text-muted-foreground">Healthcare At Home</span>
               </div>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
-              <div key={item.name} className="relative group">
-                <Link
-                  to={item.href}
-                  className={`flex items-center px-3 py-2 text-sm font-medium smooth-transition ${
-                    item.current
-                      ? "text-primary border-b-2 border-primary"
-                      : "text-muted-foreground hover:text-foreground"
-                  }`}
-                >
-                  {item.name}
-                  {item.hasDropdown && (
-                    <ChevronDown className="ml-1 h-4 w-4" />
-                  )}
-                </Link>
-              </div>
+              <Link
+                key={item.name}
+                to={item.href}
+                className={`whitespace-nowrap text-xs font-medium smooth-transition ${
+                  item.current
+                    ? "text-primary border-b-2 border-primary pb-1"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                {item.name}
+                {item.hasDropdown && (
+                  <ChevronDown className="inline ml-1 h-3 w-3" />
+                )}
+              </Link>
             ))}
           </nav>
 
@@ -89,7 +88,7 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`block px-3 py-2 text-base font-medium rounded-md smooth-transition ${
+                  className={`block px-3 py-2 text-xs font-medium rounded-md smooth-transition ${
                     item.current
                       ? "text-primary bg-accent"
                       : "text-muted-foreground hover:text-foreground hover:bg-muted"
