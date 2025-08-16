@@ -191,7 +191,7 @@ const Services = () => {
       </section>
 
       <Footer />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
     </div>
   );
 };

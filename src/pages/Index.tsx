@@ -15,7 +15,7 @@ const Index = () => {
       <AboutSection />
       <ContactSection />
       <Footer />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
     </div>
   );
 };

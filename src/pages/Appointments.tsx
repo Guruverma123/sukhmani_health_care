@@ -203,7 +203,7 @@ const Appointments = () => {
       </section>
 
       <Footer />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
     </div>
   );
 };

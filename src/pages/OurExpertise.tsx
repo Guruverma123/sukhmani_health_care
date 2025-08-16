@@ -234,7 +234,7 @@ const OurExpertise = () => {
       </section>
 
       <Footer />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
     </div>
   );
 };

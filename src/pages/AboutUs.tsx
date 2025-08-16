@@ -171,7 +171,7 @@ const AboutUs = () => {
       </section>
 
       <Footer />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
     </div>
   );
 };

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* Sukhmani Healthcare At Home Design System
-Medical green theme with professional aesthetics
+Medical blue theme with professional aesthetics
 */
 
 @layer base {
@@ -17,10 +17,10 @@ Medical green theme with professional aesthetics
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 27%;
 
-    /* Medical Green Primary */
-    --primary: 152 100% 37%;
+    /* Medical Blue Primary */
+    --primary: 207 67% 46%;          /* #257CC3 */
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 152 100% 32%;
+    --primary-hover: 207 67% 40%;    /* Darker blue */
 
     --secondary: 210 20% 98%;
     --secondary-foreground: 215 25% 27%;
@@ -28,49 +28,42 @@ Medical green theme with professional aesthetics
     --muted: 210 20% 96%;
     --muted-foreground: 215 13% 65%;
 
-    --accent: 152 100% 95%;
-    --accent-foreground: 152 100% 25%;
+    --accent: 207 100% 95%;
+    --accent-foreground: 207 67% 35%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 152 100% 37%;
+    --ring: 207 67% 46%;
 
     /* Medical Theme Colors */
-    --medical-green: 152 100% 37%;
-    --medical-light: 152 100% 95%;
-    --medical-dark: 152 100% 25%;
+    --medical-blue: 207 67% 46%;
+    --medical-light: 207 100% 95%;
+    --medical-dark: 207 67% 30%;
     --neutral-light: 210 20% 98%;
     --neutral-medium: 215 13% 65%;
     --text-dark: 215 25% 27%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsla(152, 100%, 37%, 0.9), hsla(152, 100%, 25%, 0.9));
+    --gradient-hero: linear-gradient(135deg, hsla(207, 67%, 46%, 0.9), hsla(207, 67%, 35%, 0.9));
     --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--neutral-light)));
 
     /* Shadows */
-    --shadow-card: 0 4px 20px hsla(152, 100%, 37%, 0.1);
-    --shadow-hover: 0 8px 30px hsla(152, 100%, 37%, 0.15);
+    --shadow-card: 0 4px 20px hsla(207, 67%, 46%, 0.1);
+    --shadow-hover: 0 8px 30px hsla(207, 67%, 46%, 0.15);
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 207 67% 46%;
   }
 
   .dark {
@@ -83,9 +76,9 @@ Medical green theme with professional aesthetics
     --popover: 215 25% 18%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 152 100% 45%;
+    --primary: 207 67% 55%;        /* lighter blue for dark mode */
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 152 100% 40%;
+    --primary-hover: 207 67% 50%;
 
     --secondary: 215 25% 25%;
     --secondary-foreground: 0 0% 98%;
@@ -93,25 +86,25 @@ Medical green theme with professional aesthetics
     --muted: 215 25% 25%;
     --muted-foreground: 215 13% 75%;
 
-    --accent: 152 100% 20%;
-    --accent-foreground: 152 100% 85%;
+    --accent: 207 67% 25%;
+    --accent-foreground: 207 67% 85%;
 
     --destructive: 0 62% 50%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 215 25% 25%;
     --input: 215 25% 25%;
-    --ring: 152 100% 45%;
+    --ring: 207 67% 55%;
 
     /* Dark theme medical colors */
-    --medical-green: 152 100% 45%;
-    --medical-light: 152 100% 20%;
-    --medical-dark: 152 100% 60%;
+    --medical-blue: 207 67% 55%;
+    --medical-light: 207 67% 25%;
+    --medical-dark: 207 67% 70%;
     --neutral-light: 215 25% 25%;
     --neutral-medium: 215 13% 75%;
     --text-dark: 0 0% 98%;
 
-    --gradient-hero: linear-gradient(135deg, hsla(152, 100%, 45%, 0.9), hsla(152, 100%, 30%, 0.9));
+    --gradient-hero: linear-gradient(135deg, hsla(207, 67%, 55%, 0.9), hsla(207, 67%, 40%, 0.9));
     --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--neutral-light)));
     --shadow-card: 0 4px 20px hsla(0, 0%, 0%, 0.3);
     --shadow-hover: 0 8px 30px hsla(0, 0%, 0%, 0.4);

@@ -294,7 +294,7 @@ const MedicalEquipment = () => {
       </section>
 
       <Footer />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
     </div>
   );
 };
