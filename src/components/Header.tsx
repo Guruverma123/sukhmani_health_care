@@ -24,8 +24,18 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center mr-3">
-                <span className="text-primary-foreground font-bold text-xl">S</span>
+              <div className="w-10 h-10 bg-transparent rounded-lg flex items-center justify-center mr-3">
+                <img 
+                  src="/logo/favicon.png" 
+                  alt="Sukhmani Healthcare Logo" 
+                  className="w-full h-full object-contain"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.onerror = null;
+                    target.src = '';
+                    target.parentElement!.innerHTML = '<span class="text-primary-foreground font-bold text-xl">S</span>';
+                  }}
+                />
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="flex justify-center text-xl font-bold text-foreground">Sukhmani</span>
