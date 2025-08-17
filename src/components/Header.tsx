@@ -24,7 +24,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <div className="w-10 h-10 bg-transparent rounded-lg flex items-center justify-center mr-3">
+              <div className="w-13 h-12 bg-transparent rounded-lg flex items-center justify-center mr-3">
                 <img 
                   src="/logo/favicon.png" 
                   alt="Sukhmani Healthcare Logo" 
@@ -38,7 +38,7 @@ const Header = () => {
                 />
               </div>
               <div className="flex flex-col leading-tight">
-                <span className="flex justify-center text-xl font-bold text-foreground">Sukhmani</span>
+                <span className="flex justify-center text-xl font-bold text-foreground">SUKHMANI</span>
                 <span className="flex justify-center text-sm text-muted-foreground">Healthcare At Home</span>
               </div>
             </Link>
